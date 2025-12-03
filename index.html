@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFuture Academy | Future-Ready Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="logo">EduFuture<span> Academy</span></a>
+        <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="index.html"><i class="fas fa-graduation-cap"></i> Courses</a>
+        <a href="programs.html"><i class="fas fa-book-open"></i> Programs</a>
+        <a href="admissions.html"><i class="fas fa-university"></i> Admissions</a>
+        <a href="contacts.html"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <!-- Page 1: Home -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Future Through Education</h1>
+            <p>EduFuture Academy provides cutting-edge learning experiences that prepare students for the careers of tomorrow. Join over 10,000 successful graduates in their journey to excellence.</p>
+            <div>
+                <a href="#courses" class="cta-button">Explore Courses <i class="fas fa-arrow-right"></i></a>
+                <a href="admissions.html" class="cta-button" style="margin-left: 20px; background-color: transparent; border-color: white;">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 2: Courses -->
+    <section id="courses" class="section">
+        <h2 class="section-title">Featured Courses</h2>
+        <p class="text-center mb-4">Discover our most popular courses designed to equip you with in-demand skills for the digital age.</p>
+        
+        <div class="card-grid">
+            <div class="card fade-in">
+                <div class="card-header">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Web Development Course">
+                    <div class="card-badge">BESTSELLER</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Full-Stack Web Development</h3>
+                    <div class="card-meta">
+                        <span><i class="far fa-clock"></i> 12 Weeks</span>
+                        <span><i class="fas fa-user-graduate"></i> Advanced</span>
+                    </div>
+                    <p>Master modern web technologies including HTML5, CSS3, JavaScript, React, Node.js, and MongoDB to build complete web applications.</p>
+                    <div style="margin-top: 20px;">
+                        <a href="#" class="cta-button" style="padding: 12px 25px; font-size: 1rem;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card fade-in delay-1">
+                <div class="card-header">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Data Science Course">
+                    <div class="card-badge">NEW</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Data Science & Analytics</h3>
+                    <div class="card-meta">
+                        <span><i class="far fa-clock"></i> 16 Weeks</span>
+                        <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                    </div>
+                    <p>Learn Python, statistical analysis, machine learning, and data visualization techniques to extract insights from complex datasets.</p>
+                    <div style="margin-top: 20px;">
+                        <a href="#" class="cta-button" style="padding: 12px 25px; font-size: 1rem;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card fade-in delay-2">
+                <div class="card-header">
+                    <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="AI Course">
+                    <div class="card-badge">POPULAR</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Artificial Intelligence Fundamentals</h3>
+                    <div class="card-meta">
+                        <span><i class="far fa-clock"></i> 10 Weeks</span>
+                        <span><i class="fas fa-user-graduate"></i> Beginner</span>
+                    </div>
+                    <p>Introduction to AI concepts, neural networks, natural language processing, and practical applications of machine learning.</p>
+                    <div style="margin-top: 20px;">
+                        <a href="#" class="cta-button" style="padding: 12px 25px; font-size: 1rem;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Table -->
+        <div class="features-section mt-4">
+            <h3>Course Schedule & Details</h3>
+            <table class="course-table">
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Level</th>
+                        <th>Start Date</th>
+                        <th>Fee</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Full-Stack Web Development</td>
+                        <td>12 weeks</td>
+                        <td><span class="level-badge advanced">Advanced</span></td>
+                        <td>Jan 15, 2026</td>
+                        <td>$1,200</td>
+                    </tr>
+                    <tr>
+                        <td>Data Science & Analytics</td>
+                        <td>16 weeks</td>
+                        <td><span class="level-badge intermediate">Intermediate</span></td>
+                        <td>Feb 1, 2026</td>
+                        <td>$1,500</td>
+                    </tr>
+                    <tr>
+                        <td>Artificial Intelligence Fundamentals</td>
+                        <td>10 weeks</td>
+                        <td><span class="level-badge beginner">Beginner</span></td>
+                        <td>Jan 22, 2026</td>
+                        <td>$950</td>
+                    </tr>
+                    <tr>
+                        <td>Cybersecurity Essentials</td>
+                        <td>14 weeks</td>
+                        <td><span class="level-badge intermediate">Intermediate</span></td>
+                        <td>Mar 5, 2026</td>
+                        <td>$1,300</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile App Development</td>
+                        <td>12 weeks</td>
+                        <td><span class="level-badge advanced">Advanced</span></td>
+                        <td>Feb 12, 2026</td>
+                        <td>$1,100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">10,000+</div>
+                <div class="stat-label">Successful Graduates</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">200+</div>
+                <div class="stat-label">Expert Instructors</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Courses Available</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">95%</div>
+                <div class="stat-label">Employment Rate</div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EduFuture<span> Academy</span></h3>
+                <p>Providing quality education and preparing students for the future since 2010. Accredited by the Ghana Education Service and international educational bodies.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                    <li><a href="programs.html"><i class="fas fa-chevron-right"></i> Programs</a></li>
+                    <li><a href="admissions.html"><i class="fas fa-chevron-right"></i> Admissions</a></li>
+                    <li><a href="contacts.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Student Portal</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Library Access</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Career Services</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Faculty Directory</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Academic Calendar</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Subscribe to Newsletter</h3>
+                <p>Stay updated with our latest courses, events, and educational insights.</p>
+                <div style="margin-top: 20px;">
+                    <input type="email" class="form-control" placeholder="Your email address" style="margin-bottom: 15px;">
+                    <a href="#" class="cta-button" style="padding: 12px 25px; font-size: 1rem;">Subscribe</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 EduFuture Academy. All rights reserved. | Designed with HTML5, CSS3 & JavaScript</p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle responsive navigation
+        function toggleNav() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    // Close mobile menu if open
+                    document.getElementById('myTopnav').className = "topnav";
+                    
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Update active nav link on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.topnav a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if(pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if(link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your inquiry! Our admissions team will contact you within 48 hours.');
+            this.reset();
+        });
+        
+        // Add fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+        
+        // Observe elements with the 'fade-in' class
+        document.querySelectorAll('.card, .contact-form-container').forEach(el => {
+            observer.observe(el);
+        });
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const year = new Date().getFullYear();
+            const copyrightElement = document.querySelector('.copyright p');
+            if(copyrightElement) {
+                copyrightElement.innerHTML = copyrightElement.innerHTML.replace('2023', year);
+            }
+        });
+    </script>
+</body>
+</html>

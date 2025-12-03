@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFuture Academy | Future-Ready Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Top Navigation Bar -->
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="logo">EduFuture<span> Academy</span></a>
+        <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="index.html"><i class="fas fa-graduation-cap"></i> Courses</a>
+        <a href="programs.html"><i class="fas fa-book-open"></i> Programs</a>
+        <a href="admissions.html"><i class="fas fa-university"></i> Admissions</a>
+        <a href="contacts.html"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <!-- Page 5: Contact -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="text-center mb-4">Have questions? Our admissions team is ready to help you start your educational journey.</p>
+        
+        <div class="contact-form-container fade-in">
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" class="form-control" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="program">Program of Interest</label>
+                    <select id="program" class="form-control">
+                        <option value="">Select a program</option>
+                        <option value="web-dev">Full-Stack Web Development</option>
+                        <option value="data-science">Data Science & Analytics</option>
+                        <option value="ai">Artificial Intelligence Fundamentals</option>
+                        <option value="diploma">Diploma Programs</option>
+                        <option value="degree">Degree Programs</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" class="form-control" placeholder="Tell us about your educational goals and any questions you have..."></textarea>
+                </div>
+                
+                <button type="submit" class="cta-button" style="width: 100%; margin-top: 20px;">Submit Inquiry <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+        
+        <div class="features-section mt-4">
+            <div class="list-container">
+                <div class="list-box">
+                    <h4><i class="fas fa-map-marker-alt"></i> Campus Address</h4>
+                    <p>123 Education Avenue<br>
+                       Knowledge District<br>
+                       Accra, Ghana</p>
+                </div>
+                
+                <div class="list-box">
+                    <h4><i class="fas fa-phone"></i> Contact Information</h4>
+                    <p>Phone: +233 30 123 4567<br>
+                       Email: admissions@edufuture.edu.gh<br>
+                       Fax: +233 30 123 4568</p>
+                </div>
+                
+                <div class="list-box">
+                    <h4><i class="fas fa-clock"></i> Office Hours</h4>
+                    <p>Monday-Friday: 8:00 AM - 6:00 PM<br>
+                       Saturday: 9:00 AM - 2:00 PM<br>
+                       Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
